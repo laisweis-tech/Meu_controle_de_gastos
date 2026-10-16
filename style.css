@@ -191,4 +191,58 @@ h3 {
     .saldo h2 {
         font-size: 2.2rem;
     }
+    
+/* Botão de excluir gasto */
+.btn-excluir {
+    background: #c2413b;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    flex-shrink: 0;
+}
+
+.btn-excluir:hover {
+    background: #a52f2a;
+}
+
+.gasto-acoes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.gasto-acoes span {
+    color: #c2413b;
+    font-weight: 700;
+    white-space: nowrap;
+}
+.gasto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--linha);
+}
+
+.gasto-acoes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-excluir {
+    background: #c2413b;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+.btn-excluir:hover {
+    background: #a52f2a;
+}
+
 }
